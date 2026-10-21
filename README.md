@@ -15,6 +15,6 @@ Le paysage original est dessiné en Canvas et le bouton « Changer d’horizon �
 GitHub Pages, par l'action `.github/workflows/pages.yml` (publie `dist/` à chaque push sur `main`). Rien n'est publié tant que la variable du dépôt `SITE_LIVE` ne vaut pas `true` :
 
 ```bash
-gh variable set SITE_LIVE --body true --repo RandomZeleff/RandomZeleff.github.io
-gh workflow run pages.yml --repo RandomZeleff/RandomZeleff.github.io
+gh variable set SITE_LIVE --body true --repo tandem-launcher/tandem-launcher.github.io
+gh workflow run pages.yml --repo tandem-launcher/tandem-launcher.github.io
 ```
